@@ -1,0 +1,100 @@
+visitare;visit;0.96
+trovare;find;0.12
+avere;have;0.12
+guardare;watch;0.96
+accendere;switch on;0.47
+scusarsi;apologize;0.13
+vivere;live;0.96
+leggere;read;0.66
+spiegare;explain;0.03
+essere;be;0.21
+studiare;study;0.15
+iniziare;start;1.0
+mangiare;eat;0.12
+venire;come;0.03
+dormire;sleep;0.09
+imparare;learn;0.28
+scendere;go down;0.09
+diventare;become;0.03
+camminare;walk;0.03
+volere;want;0.47
+capire;understand;1.0
+dispiacere;be sorry;0.36
+ascoltare;listen;1.0
+aprire;open;0.12
+entrare;enter;0.96
+correre;run;0.15
+tornare;return;0.06
+parlare;speak;0.72
+conoscere;know;0.97
+telefonare;phone;0.12
+pulire;clean;0.18
+ricordare;remember;0.66
+salire;go up;0.03
+sapere;know;0.96
+nascere;be born;0.15
+cercare;look for;0.0
+lavorare;work;1.0
+abituarsi;get used to;0.03
+dare;give;0.57
+sperare;hope;0.09
+fare;do;0.57
+ripetere;repeat;0.76
+vincere;win;1.0
+chiedere;ask;0.57
+tradurre;translate;0.27
+chiudere;close;0.97
+rimanere;stay;0.17
+dovere;must;0.97
+ordinare;order;0.09
+morire;die;0.15
+servire;need;0.58
+toccare;touch;0.06
+lasciare;leave;0.01
+cenare;have dinner;0.57
+pensare;think;0.15
+mettere;put;0.12
+potere;can;0.76
+rompere;break;0.12
+amare;love;1.0
+dire;say;0.27
+godere;enjoy;0.27
+comprare;buy;0.01
+spingere;push;0.0
+salutare;greet;0.12
+usare;use;1.0
+piacere;like;0.03
+credere;believe;0.0
+rispondere;reply;0.66
+guadagnare;earn;0.56
+pagare;pay;0.77
+invitare;invite;0.21
+mandare;send;0.46
+andare;go;0.1
+prendere;take;0.15
+divertirsi;have fun;0.09
+sembrare;seem;0.31
+aspettare;wait;0.07
+giocare;play;0.36
+perdere;lose;0.27
+partire;leave;1.0
+tirare;pull;0.68
+pranzare;have lunch;0.0
+incontrare;meet;0.27
+interessare;interest;1.0
+comportarsi;behave;1.0
+crescere;grow up;0.0
+cuocere;cook;0.03
+bere;drink;0.09
+uscire;exit;0.57
+finire;finish;0.96
+preferire;prefer;1.0
+cambiare;change;0.03
+scrivere;write;0.15
+vendere;sell;0.03
+abitare;live in;0.97
+portare;bring;0.0
+mancare;miss;0.27
+vedere;see;0.57
+chiamarsi;be called;0.06
+aiutare;help;0.66
