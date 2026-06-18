@@ -205,20 +205,20 @@ def file_loop(file_name: str):
         inp = console.get_input()
 
         # Actions
-        if inp.check(0, 'help'):
+        if inp.check(0, 'h'):
             console.print("[L] - Learn specific amount of words.")
             console.print(f"   (pos.arg:)[N] - Number of words for learing. (default: {DEFAULT_WORDS_NUMBER})")
             console.print("   (flag:)   [f] - Flip direction of languages.")
             console.print("   (flag:)   [s] - Pick lowest weight first.")
+            console.print("   Example: 'l 10 s' - will start learning session with 10 words of lowest weight.\n")
 
             console.print("[P] - Print all words in current file.")
-            console.print("   (flag:)   [s] - Sort by lowest weight first.")
+            console.print("   (flag:)   [s] - Sort by lowest weight first.\n")
 
-            console.print("[Q] - Exit current file.")
-            console.print("[QQ] - Exit program.")
+            console.print("[Q] - Exit current file. Will return to file browser if started in interactive mode.")
+            console.print("[QQ] - Terminate program.")
             console.print("[H] - Print this help.")
-            console.print("[SAVE] - Save words with weights into current file.")
-            console.print("[BCK] - Make backup.")
+            console.print("[BCK] - Make backup of current file.")
             console.get_input()
 
         elif inp.check(0,'l'):
@@ -243,8 +243,6 @@ def file_loop(file_name: str):
         elif inp.check(0, 'p'):
             s = inp.check_flag(1, 's')
             print_words(words, s)
-        elif inp.check(0, 'save'):
-            store_words(file_name, words)
         elif inp.check(0, 'bck'):
             bck_dest = file_name + ".bck"
             shutil.copyfile(file_name, bck_dest)
