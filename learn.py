@@ -36,7 +36,10 @@ class SysConsole:
         print(*arg, **kwargs)
 
     def cls(self):
-        os.system("cls")
+        if sys.platform.startswith("win"):
+            os.system("cls")
+        else:
+            os.system("clear")
 
     def get_input_ch(self) -> cl_input:
         def getch():
@@ -172,6 +175,7 @@ def learn_loop(words_in: List[Word], n: int, flip: bool = False):
             msg = "Canceled!" if left_early else "Finished!"
             console.print("{} Result: {}/{}".format(msg, correct, total))
             console.print("[R - repeat; F - repeat flipped; P - print all; A [n] - add words]")
+            console.print("------------------------------------------------------------------")
 
             # Actions
             inp = console.get_input()
@@ -196,14 +200,14 @@ def file_loop(file_name: str):
     while True:
         console.cls()
         console.print(f"File: {Path(file_name).name} ({Word.get_avg_rate(words):.4})")
-        console.print("[L [n] [fs] - learn; P [s] - print words; Q - quit; HELP - print help]")
-        console.print("----------------------------------------------------------------------")
+        console.print("[L N [fs] - learn; P [s] - print words; Q - quit; H - print help]")
+        console.print("-----------------------------------------------------------------")
         inp = console.get_input()
 
         # Actions
         if inp.check(0, 'help'):
             console.print("[L] - Learn specific amount of words.")
-            console.print(f"   (pos.arg:)[n] - Number of words for learing. (default: {DEFAULT_WORDS_NUMBER})")
+            console.print(f"   (pos.arg:)[N] - Number of words for learing. (default: {DEFAULT_WORDS_NUMBER})")
             console.print("   (flag:)   [f] - Flip direction of languages.")
             console.print("   (flag:)   [s] - Pick lowest weight first.")
 
@@ -212,7 +216,7 @@ def file_loop(file_name: str):
 
             console.print("[Q] - Exit current file.")
             console.print("[QQ] - Exit program.")
-            console.print("[HELP] - Print this help.")
+            console.print("[H] - Print this help.")
             console.print("[SAVE] - Save words with weights into current file.")
             console.print("[BCK] - Make backup.")
             console.get_input()

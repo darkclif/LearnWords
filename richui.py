@@ -30,7 +30,7 @@ class MiniConsole(QWidget):
 
         self.input = QLineEdit()
         self.input.setFocus()
-        self.input.setStyleSheet("background: #222; color: #0f0; font-family: Consolas;")
+        self.input.setStyleSheet("background: #222; color: white; font-family: Consolas;")
 
         self.input.returnPressed.connect(self._on_line_entered)
         self.input.textEdited.connect(self._on_text_edited)
