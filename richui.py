@@ -42,8 +42,8 @@ class MiniConsole(QWidget):
         self.setLayout(layout)
 
     #region Console API
-    def print(self, text: str):
-        self.output.append(text)
+    def print(self, *args: str):
+        self.output.append("".join(args))
         self.output.moveCursor(QTextCursor.MoveOperation.End)
 
     def cls(self):

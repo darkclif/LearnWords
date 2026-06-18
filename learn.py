@@ -257,8 +257,8 @@ def pick_file_loop() -> str:
     rates: Dict[str, float] = {}
     rates_always: bool = False
 
-    def cache_rate(e: Path, rates: Dict[str, float]):
-        if str(e) not in rates and e.is_file():
+    def cache_rate(e: Path, rates: Dict[str, float], force: bool = False):
+        if force or (str(e) not in rates and e.is_file()):
             rates[str(e)] = Word.get_avg_rate(load_words(str(e)))
 
     while True:
@@ -275,7 +275,7 @@ def pick_file_loop() -> str:
                 d = ("[DIR]" if e.is_dir() else "")
                 if rates_always:
                     cache_rate(e, rates)
-                r = (f"({str(rates[str(e)]):.4})" if str(e) in rates else "")
+                r = (f"({str(rates[str(e)]):.6})" if str(e) in rates else "")
 
                 console.print(f"{s:1} {d:5} {entry} {r}")
 
@@ -304,7 +304,7 @@ def pick_file_loop() -> str:
             elif curr_entry.is_file() and curr_entry.suffix == ".txt":
                 return str(curr_entry)
         elif inp.check(0, 'c'):
-            cache_rate(curr_entry, rates)
+            cache_rate(curr_entry, rates, True)
 
 def run(in_console: Any):
     if in_console:
