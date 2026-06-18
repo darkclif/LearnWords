@@ -33,7 +33,7 @@ ricordare;remember;0.66
 salire;go up;0.03
 sapere;know;0.96
 nascere;be born;0.15
-cercare;look for;0.0
+cercare;look for;0.06
 lavorare;work;1.0
 abituarsi;get used to;0.03
 dare;give;0.57
@@ -60,11 +60,11 @@ amare;love;1.0
 dire;say;0.27
 godere;enjoy;0.27
 comprare;buy;0.01
-spingere;push;0.0
+spingere;push;0.06
 salutare;greet;0.12
 usare;use;1.0
 piacere;like;0.03
-credere;believe;0.0
+credere;believe;0.06
 rispondere;reply;0.66
 guadagnare;earn;0.56
 pagare;pay;0.77
@@ -79,7 +79,7 @@ giocare;play;0.36
 perdere;lose;0.27
 partire;leave;1.0
 tirare;pull;0.68
-pranzare;have lunch;0.0
+pranzare;have lunch;0.06
 incontrare;meet;0.27
 interessare;interest;1.0
 comportarsi;behave;1.0
