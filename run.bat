@@ -1,1 +1,2 @@
-start "" pythonw.exe richui.py
+py learn.py
+pause

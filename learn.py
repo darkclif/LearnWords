@@ -1,5 +1,6 @@
 from itertools import chain
 from pathlib import Path
+import re
 import sys
 import os
 import random
@@ -13,9 +14,10 @@ RATE_ADD   = 0.06
 class cl_input:
     def __init__(self, inp: str):
         self.arr: List[str] = inp.split()
+        self.inp = inp
 
-    def get(self, idx: int = 0):
-        return (self.arr[idx] if idx < len(self.arr) else "")
+    def get(self):
+        return self.inp
 
     def check(self, i: int, what: str):
         if not i < len(self.arr):
@@ -91,6 +93,14 @@ class Word:
     @staticmethod
     def get_avg_rate(words: List['Word']):
         return sum([w.rate for w in words]) / len(words)
+    
+    @staticmethod
+    def check_answer(inp: cl_input, word: 'Word', flip: bool):
+        guess = inp.get().strip()
+        right = word.get_word(1, flip).strip()
+        right = re.sub(r"\s*\([^)]*\)\s*", " ", right).strip() # Remove '(...)' contexts hints.
+        rights = [r.strip() for r in right.split("/")] # Generate multiple possibilities
+        return (guess in rights)
 
 def get_sorted_by_rate(words: List[Word]) -> List[Word]:
     words_out = words[:]
@@ -107,7 +117,7 @@ def load_words(file_name: str):
     words = []
     with open(file_name, 'r', encoding="UTF-8") as f:
         lines = f.readlines()
-        lines = [l.split(";") for l in lines]
+        lines = [l.split(";") for l in lines if l]
         words = [Word(*l) for l in lines]  
     return words
 
@@ -147,7 +157,9 @@ def learn_loop(words_in: List[Word], n: int, flip: bool = False):
             if inp.check(0, 'q'):
                 left_early = True
                 break
-            if inp.get() == curr_word.get_word(1, flip).strip():
+            elif inp.check(0,'qq'):
+                exit()
+            elif Word.check_answer(inp, curr_word, flip):
                 console.print("Correct!")
                 console.get_input()
                 if not curr_word.should_repeat():
@@ -161,10 +173,7 @@ def learn_loop(words_in: List[Word], n: int, flip: bool = False):
         # Calc new rates
         if not left_early:
             for w in words:
-                if not w.should_repeat():
-                    w.change_rate(RATE_ADD)
-                else:
-                    w.change_rate(RATE_SUB)
+                w.change_rate(RATE_SUB if w.should_repeat() else RATE_ADD)
             
         # Decide what now
         loop2 = True
