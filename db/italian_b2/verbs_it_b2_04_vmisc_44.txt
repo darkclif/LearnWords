@@ -1,0 +1,44 @@
+attendere;wait;0.0
+cambiare;change;0.0
+svegliare/si;wake up / wake oneself;0.0
+concentrare/si;concentrate / focus;0.0
+sdraiare/si;lie down;0.0
+sbagliare/si;make a mistake / be mistaken;0.0
+aumentare;increase;0.0
+combattere;fight;0.0
+cominciare;begin;0.0
+finire;finish;0.0
+iniziare;start;0.0
+migliorare;improve;0.0
+parlare;speak;0.0
+salire;go up;0.0
+saltare;jump;0.0
+scendere;go down;0.0
+valere;be worth;0.0
+vincere;win;0.0
+chiamare/si;call / call oneself;0.0
+dimenticare/si;forget / forget oneself;0.0
+ferire/si;hurt / hurt oneself;0.0
+fermare/si;stop / stop oneself;0.0
+occupare/si;occupy / occupy oneself;0.0
+riferire/si;report / refer oneself;0.0
+riprendere/si;resume / recover;0.0
+trovare/si;find / find oneself;0.0
+contare;count;0.0
+asciugare/si;dry / dry oneself;0.0
+lavare/si;wash / wash oneself;0.0
+bagnare/si;wet / get wet;0.0
+muovere/si;move / move oneself;0.0
+piegare/si;fold / bend oneself;0.0
+spiegare/si;explain / explain oneself;0.0
+stendere/si;stretch / stretch oneself;0.0
+sentire/si;feel / feel each other;0.0
+incontrare/si;meet / meet each other;0.0
+separare/si;separate / separate from each other;0.0
+sposare/si;marry / marry each other;0.0
+vedere/si;see / see each other;0.0
+ricordare/si;remember / remind oneself;0.0
+aspettare/si;wait / wait for oneself;0.0
+augurare/si;wish / wish for oneself;0.0
+mettere/si;put / put on oneself;0.0
+rompere/si;break / break on oneself;0.0

@@ -1,0 +1,9 @@
+abituarsi;get used to;0.0
+alzarsi;get up;0.0
+connettersi;connect;0.0
+curarsi;take care of oneself;0.0
+divertirsi;have fun;0.0
+iscriversi;enroll;0.0
+rilassarsi;relax;0.0
+spogliarsi;undress;0.0
+vestirsi;get dressed;0.0

@@ -1,0 +1,26 @@
+accomodarsi;make oneself comfortable;0.0
+accorgersi;notice;0.0
+addormentarsi;fall asleep;0.0
+allontanarsi;move away;0.0
+ammalarsi;get sick;0.0
+andarsene;leave (go away);0.0
+annoiarsi;get bored;0.0
+arrabbiarsi;get angry;0.0
+avvicinarsi;approach;0.0
+calmarsi;calm down;0.0
+comportarsi;behave;0.0
+diplomarsi;graduate (high school);0.0
+fidarsi;trust;0.0
+fregarsene;not care;0.0
+innamorarsi;fall in love;0.0
+interessarsi;take an interest;0.0
+lamentarsi;complain;0.0
+laurearsi;graduate (university);0.0
+preoccuparsi;worry;0.0
+raccomandarsi;recommend oneself;0.0
+rimettersi;recover;0.0
+sedersi;sit down;0.0
+specializzarsi;specialize;0.0
+trasferirsi;move (change residence);0.0
+ubriacarsi;get drunk;0.0
+vergognarsi;be ashamed;0.0

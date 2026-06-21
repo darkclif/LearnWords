@@ -1,0 +1,88 @@
+dipendere;depend;0.0
+sopravvivere;survive;0.0
+guarire;heal;0.0
+volare;fly;0.0
+sperare;hope;0.0
+passeggiare;stroll;0.0
+giocare;play;0.0
+potere;be able to;0.0
+stare;stay;0.0
+mancare;miss;0.0
+capitare;happen;0.0
+soffrire;suffer;0.0
+crescere;grow;0.0
+dubitare;doubt;0.0
+chiacchierare;chat;0.0
+dormire;sleep;0.0
+sorridere;smile;0.0
+correre;run;0.0
+diminuire;decrease;0.0
+appartenere;belong;0.0
+piovere;rain;0.0
+nascere;be born;0.0
+essere;be;0.0
+camminare;walk;0.0
+ridere;laugh;0.0
+frenare;brake;0.0
+piacere;please;0.0
+rispondere;answer;0.12
+partecipare;participate;0.0
+pensare;think;0.0
+rinunciare;give up;0.0
+riflettere;reflect;0.0
+gridare;shout;0.0
+sciare;ski;0.0
+sembrare;seem;0.12
+bollire;boil;0.0
+disperare;despair;0.0
+ritornare;return;0.0
+partire;leave;0.0
+cenare;have dinner;0.0
+accelerare;accelerate;0.0
+traslocare;move house;0.0
+funzionare;work/function;0.0
+dispiacere;displease;0.0
+litigare;argue;0.0
+nuotare;swim;0.0
+entrare;enter;0.0
+divorziare;divorce;0.0
+navigare;sail;0.0
+assomigliare;resemble;0.0
+scherzare;joke;0.0
+accadere;happen;0.0
+bisognare;be necessary;0.0
+ballare;dance;0.0
+tornare;return;0.0
+puzzare;stink;0.06
+nevicare;snow;0.0
+lavorare;work;0.0
+piangere;cry;0.0
+bastare;be enough;0.0
+uscire;go out;0.0
+vivere;live;0.0
+restare;stay;0.12
+reagire;react;0.0
+cadere;fall;0.0
+durare;last;0.0
+riuscire;succeed;0.0
+servire;serve;0.0
+girare;turn;0.0
+riposare;rest;0.0
+intervenire;intervene;0.0
+abitare;live;0.0
+venire;come;0.0
+dovere;have to;0.0
+crepare;die;0.0
+morire;die;0.24
+rimanere;remain;0.0
+insistere;insist;0.0
+esistere;exist;0.0
+diventare;become;0.0
+pranzare;have lunch;0.0
+importare;matter;0.0
+arrivare;arrive;0.0
+succedere;happen;0.0
+viaggiare;travel;0.0
+telefonare;call;0.0
+andare;go;0.0
+volere;want;0.0

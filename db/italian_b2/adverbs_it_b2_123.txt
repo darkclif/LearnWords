@@ -1,0 +1,123 @@
+certo;certainly;0.0
+esatto;exactly;0.0
+lontano;far;0.0
+poco;little;0.0
+proprio;exactly;0.0
+solo;only;0.0
+troppo;too much;0.0
+quanto;how much;0.0
+meglio;better;0.0
+parecchio;a lot;0.0
+peggio;worse;0.0
+spesso;often;0.0
+neanche;not even;0.0
+nemmeno;not even;0.0
+perché;why;0.0
+pure;also;0.0
+quindi;therefore;0.0
+davanti;in front;0.0
+dentro;inside;0.0
+dietro;behind;0.0
+fuori;outside;0.0
+dopo;after;0.0
+piano;slowly;0.0
+abbastanza;enough;0.0
+accanto;next to;0.0
+adesso;now;0.0
+affatto;at all;0.0
+allora;then;0.0
+almeno;at least;0.0
+altrimenti;otherwise;0.0
+ancora;still;0.0
+appena;just;0.0
+assolutamente;absolutely;0.0
+attentamente;carefully;0.0
+avanti;forward;0.0
+bene;well;0.0
+certamente;certainly;0.0
+chissà;who knows;0.0
+circa;about;0.0
+contemporaneamente;simultaneously;0.0
+continuamente;continuously;0.0
+cordialmente;cordially;0.0
+così;so;0.0
+dappertutto;everywhere;0.0
+davvero;really;0.0
+direttamente;directly;0.0
+domani;tomorrow;0.0
+dopodomani;the day after tomorrow;0.0
+dove;where;0.0
+dovunque;wherever;0.0
+dritto;straight;0.0
+finalmente;finally;0.0
+finora;so far;0.0
+forse;maybe;0.0
+generalmente;generally;0.0
+già;already;0.0
+giù;down;0.0
+gratis;free;0.0
+ieri;yesterday;0.0
+improvvisamente;suddenly;0.0
+indietro;back;0.0
+infine;in the end;0.0
+innanzitutto;first of all;0.0
+inoltre;moreover;0.0
+insieme;together;0.0
+insomma;in short;0.0
+intanto;meanwhile;0.0
+intorno;around;0.0
+là;there;0.0
+laggiù;down there;0.0
+lassù;up there;0.0
+lentamente;slowly;0.0
+lì;there;0.0
+mai;never;0.0
+male;badly;0.0
+meno;less;0.0
+non;not;0.0
+nulla;nothing;0.0
+oggi;today;0.0
+oggigiorno;nowadays;0.0
+ormai;by now;0.0
+particolarmente;particularly;0.0
+perfino;even;0.0
+personalmente;personally;0.0
+più;more;0.0
+piuttosto;rather;0.0
+poi;then;0.0
+praticamente;practically;0.0
+presso;near;0.0
+presto;soon;0.0
+prima;before;0.0
+probabilmente;probably;0.0
+purtroppo;unfortunately;0.0
+qua;here;0.0
+quasi;almost;0.0
+qui;here;0.0
+raramente;rarely;0.0
+sempre;always;0.0
+sì;yes;0.0
+sicuramente;surely;0.0
+soltanto;only;0.0
+soprattutto;above all;0.0
+specialmente;especially;0.0
+stamattina;this morning;0.0
+stanotte;tonight;0.0
+stasera;this evening;0.0
+subito;immediately;0.0
+talvolta;sometimes;0.0
+tardi;late;0.0
+velocemente;quickly;0.0
+veramente;truly;0.0
+vicino;near;0.0
+volentieri;willingly;0.0
+come;how;0.0
+comunque;however;0.0
+quando;when;0.0
+senza;without;0.0
+sopra;above;0.0
+sotto;under;0.0
+niente;nothing;0.0
+ora;now;0.0
+via;away;0.0
+appunto;exactly;0.0

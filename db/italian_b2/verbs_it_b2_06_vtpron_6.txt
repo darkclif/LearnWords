@@ -1,0 +1,6 @@
+bruciarsi;burn oneself;0.0
+cavarsela;manage / get by;0.0
+farcela;succeed;0.0
+figurarsi;imagine;0.0
+mettercela;give it your all;0.0
+prendersela;take something personally;0.0
