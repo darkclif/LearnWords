@@ -30,12 +30,12 @@ git clone https://github.com/darkclif/LearnWords
 py learn.py 
 - Interactive mode when you choose file from 'pkg' folder
 
-py learn.py path/to/file.txt 
+py learn.py path/to/any/file.txt 
 - Learn specific file
 ```
 
 ### Add
-To add file with new words you should create TXT file with format:
+To add file with new words you should create TXT file formatted as below. Files placed inside ```pkg``` folder will be visible inside interactive mode.
 
 ```
 word1_en;word1_it;0.0
